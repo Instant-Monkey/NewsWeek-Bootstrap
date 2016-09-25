@@ -1,0 +1,145 @@
+.navbar { 
+	background-color: black; 
+	box-sizing: border-box;
+}
+
+.navbar-default .navbar-nav>li:hover { 
+	
+
+}
+
+.navbar-default .navbar-nav>li>a { 
+	color:#fff; 
+	font-family: Arial, sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a:hover{ 
+	color:#fff;
+
+}
+
+.navbar-default .navbar-brand { 
+	color:#fff;
+	background-color:red;
+	font-size:30px;
+	font-family: serif; 
+}
+
+.navbar .big-logo { 
+  	display:none ;
+  }
+
+  .navbar-default .navbar-nav>li>a { 
+  	display:none;
+  }
+
+  .navbar-default .navbar-right>li>a { 
+  	display:block;
+  }
+
+   .navbar-default .navbar-nav .glyphicon { 
+  	display:block;
+  }
+
+  .article--featured img { 
+  	max-width: 100%;
+
+  }
+
+  .article--card img { 
+  	width:100%;
+  }
+
+  .article--featured--meta { 
+  	padding:32px 0;
+  }
+
+  .article--featured--meta-category { 
+  	color:red;
+  	text-transform: uppercase; 
+  	font-size;18px;
+  	text-align: center ; 
+  }
+
+  .article--featured--meta-title { 
+  	
+  	text-transform: uppercase; 
+  	font-size;24px;
+  	text-align: center ; 
+  }
+
+   .article--featured--meta-summary {
+   	font-family: serif; 
+   	font-size:22px ;
+   	text-align: center ; 
+   } 
+
+   .sidebar{ 
+   	float:left;
+   }
+
+   .sidebar ul { 
+   	padding-left:12px;
+   	list-style-type: square;
+   }
+
+   .sidebar ul li { 
+   	    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+
+   }
+
+   .sidebar li a { 
+   		color:#000;
+   		font-size:18px;
+   }
+
+   .article--card img { 
+   	margin-bottom:16px;
+   }
+
+   .article--meta-category { 
+   	color:red;
+   	text-transform: uppercase; 
+
+   }
+
+   .article--meta-category:hover { 
+   	color:black;
+
+   }
+
+   .article--meta-summary { 
+   	font-family: serif; 
+   	font-size:19px;
+   }
+
+   .heading { 
+   	text-align:center ;
+   	font-family: serif ; 
+   	}
+
+@media (min-width: 1396px) {
+	.navbar .small-logo { 
+  	display:none ;
+  }
+
+  .navbar .big-logo { 
+  	display:block ;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .navbar-default .navbar-nav>li>a { 
+  	display:block;
+  }
+
+
+  
+  
+  
+}
+}
+
